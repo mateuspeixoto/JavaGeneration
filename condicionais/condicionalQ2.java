@@ -33,6 +33,9 @@ public class condicionalQ2 {
 				meio=n3;
 				menor=n2;
 			}
+			System.out.println("\nmenor: "+ menor); 
+			System.out.println("\nmeio: "+ meio);
+			System.out.println("\nmaior: "+ maior);
 		}
 		
 		if(n2>n1 && n2>n3) 
@@ -48,6 +51,9 @@ public class condicionalQ2 {
 				meio=n3;
 				menor=n1;
 			}
+			System.out.println("\nmenor: "+ menor); 
+			System.out.println("\nmeio: "+ meio);
+			System.out.println("\nmaior: "+ maior);
 		}
 		
 		if(n3>n2 && n3>n1) 
@@ -63,12 +69,20 @@ public class condicionalQ2 {
 				meio=n1;
 				menor=n2;
 			}
+			System.out.println("\nmenor: "+ menor); 
+			System.out.println("\nmeio: "+ meio);
+			System.out.println("\nmaior: "+ maior);
+		}
+		else {
+			System.out.println("\nmenor: "+ n1); 
+			System.out.println("\nmeio: "+ n2);
+			System.out.println("\nmaior: "+ n3);
+			
+			
 		}
 			
 	
-		System.out.println("\nmenor: "+ menor); 
-		System.out.println("\nmeio: "+ meio);
-		System.out.println("\nmaior: "+ maior);
+		
 
 	}
 
