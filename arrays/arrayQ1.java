@@ -38,7 +38,7 @@ public class arrayQ1 {
 		//saida das notas para o leigo
 		for(i=0;i<5;i++)
 		{
-			if(vet[i]==maior)
+			if(vet[i]==maior )
 			{
 				System.out.printf("\nO %do valor de potuação é: %d <-- Maior número",i+1,vet[i]);
 			}
@@ -46,6 +46,7 @@ public class arrayQ1 {
 			else if(vet[i]==menor)
 			{
 				System.out.printf("\nO %do valor de potuação é: %d <-- Menor número",i+1,vet[i]);
+			
 			}
 			else {
 				System.out.printf("\nO %do valor de potuação é: %d",i+1,vet[i]);

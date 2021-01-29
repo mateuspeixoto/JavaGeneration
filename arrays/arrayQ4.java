@@ -22,7 +22,7 @@ public class arrayQ4 {
 				if(m[c]==m[l]) 
 			{
 				diag+= m[l][c];
-				System.out.println("dp");
+				
 			}
 				
 				

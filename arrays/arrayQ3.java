@@ -6,7 +6,7 @@ public class arrayQ3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int l,c,i=0;
+		int l,c,i=0,j=0;
 		int n1[][]= new int[4][6], n2[][]= new int[4][6],m1[][]= new int[4][6],m2[][]= new int[4][6];
 		
 		Scanner ler= new Scanner(System.in);
@@ -22,10 +22,6 @@ public class arrayQ3 {
 				
 			}
 			
-			if(i==24)
-				{
-					i=0;
-				}
 			
 		}
 		
@@ -36,9 +32,9 @@ public class arrayQ3 {
 			
 			for(c=0;c<6;c++)
 			{
-				System.out.printf("Entre com o %do valor da matriz n2[%d][%d] \n R: ",i+1,l,c);
+				System.out.printf("Entre com o %do valor da matriz n2[%d][%d] \n R: ",j+1,l,c);
 				n2[l][c]= ler.nextInt();
-				i++;
+				j++;
 			}
 		}
 		
