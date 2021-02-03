@@ -32,7 +32,13 @@ public class Ex1Pessoa {
 		System.out.println(z);
 		
 	}
-
+	
+	public void Ex3Empregado(String nome, String endereco)
+	{
+		this.nome=nome;
+		this.endereco=endereco;
+	}
+	
 	public String getZapzap() {
 		return zapzap;
 	}
